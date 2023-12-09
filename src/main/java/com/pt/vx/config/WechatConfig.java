@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wxd73774a0fc8e9922";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "c6087639c704000b8eda3eb3f9e92cf1";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,27 +38,27 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "oS3st6yhizMErmoqeXe5vpf6B2bw", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "IZX7vweYkp9xYpePQlG__yzTX68LkMYfkBOWcC_9xWM", //要给这个人发送的模板ID
+                "洋洋", //咋称呼这个人
+                "北京市海淀区", //这个人的详细地址
+                "北京", //这个人在的城市
+                new BirthDay(2000,10,20,false,false,"洋洋生日快乐！！"), //生日倒计时
+                new BirthDay(2002,3,13,false,false,"俊杰生日快乐！！"), //生日倒计时
+                new BirthDay(2023,10,2,false,false,"周年快乐！！！"),//纪念日倒计时
+                new BirthDay(2023,10,2,false,true)//在一起天数
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "oS3st6yDUBbVJLOIMaEU9Hn2AvB4",
+                "IZX7vweYkp9xYpePQlG__yzTX68LkMYfkBOWcC_9xWM",
+                "俊杰",
+                "黑龙江省哈尔滨市南岗区",
+                "黑龙江",
+                new BirthDay(2000,10,20,false,false,"洋洋生日快乐！！"), //BirthDay，生日倒计时
+                new BirthDay(2002,3,13,false,false,"俊杰生日快乐！！"), //BirthDay1，生日倒计时
+                new BirthDay(2023,10,2,false,false,"祝咱们周年快乐！！！"),//BirthDay2，纪念日倒计时
+                new BirthDay(2023,10,2,false,true) //BirthDay3，在一起天数
         ));
 
 
