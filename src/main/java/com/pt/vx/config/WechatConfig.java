@@ -51,12 +51,12 @@ public class WechatConfig {
 
         userList.add(getUser(
                 "oS3st6yDUBbVJLOIMaEU9Hn2AvB4",
-                "IZX7vweYkp9xYpePQlG__yzTX68LkMYfkBOWcC_9xWM",
-                "俊杰",
+                "-1f6-5C5Ob0yu6Y-lm8NkCciVJOwmf6OUkCtoUI_qyg",
+                "小小俊杰",
                 "黑龙江省哈尔滨市南岗区",
                 "黑龙江",
-                new BirthDay(2000,10,20,false,false,"洋洋生日快乐！！"), //BirthDay，生日倒计时
-                new BirthDay(2002,3,13,false,false,"俊杰生日快乐！！"), //BirthDay1，生日倒计时
+                new BirthDay(2002,3,13,false,false,"俊杰生日快乐！！"), //BirthDay，生日倒计时
+                new BirthDay(2000,10,20,false,false,"洋洋生日快乐！！"), //BirthDay1，生日倒计时
                 new BirthDay(2023,10,2,false,false,"祝咱们周年快乐！！！"),//BirthDay2，纪念日倒计时
                 new BirthDay(2023,10,2,false,true) //BirthDay3，在一起天数
         ));
